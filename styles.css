@@ -19,12 +19,6 @@ html {
   border-radius: 18px;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 img {
   border-radius: 50%;
   object-fit: cover;
@@ -34,6 +28,10 @@ img {
 .title {
   color: white;
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
 }
 
 .location {
@@ -44,4 +42,30 @@ img {
 
 .content {
   color: white;
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 1.75rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+button {
+  width: 270px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 28%);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid hsl(0, 0%, 28%);
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
 }
